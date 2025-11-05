@@ -72,7 +72,7 @@ function Navbar() {
             <div className="flex items-center gap-3">
               {/* ✅ Clicking this opens modal */}
               <img
-                src="/s2.png"
+                src="/f1.jpg"
                 alt="Profile"
                 onClick={() => setShowProfileModal(true)}
                 className="h-10 w-10 rounded-full object-cover border-2 border-primary cursor-pointer hover:scale-105 transition-transform"
@@ -83,7 +83,7 @@ function Navbar() {
                 className="flex items-center gap-1 group"
               >
                 <span className="text-lg md:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-cyan-800">
-                  SAQUIB<span className="text-primary">.</span>
+                  FAHIM<span className="text-primary">.</span>
                 </span>
                 <p className="hidden md:inline-block text-sm text-base-content/70 ml-2 group-hover:text-cyan-500 transition-colors">
                   Backend Developer | PERN Stack | Software Engineer
@@ -136,8 +136,8 @@ function Navbar() {
               {/* Profile Info */}
               <div className="flex-shrink-0 flex flex-col items-center md:items-start">
                 <img
-                  src="/s2.png"
-                  alt="Saquib"
+                  src="/f1.jpg"
+                  alt="Fahim"
                   className="w-28 h-28 rounded-full border-4 border-primary object-cover"
                 />
                 <h3 className="mt-3 text-xl font-bold">Fahim Bakshi</h3>
@@ -192,10 +192,7 @@ function Navbar() {
                   <ul className="mt-1 space-y-1">
                     <li>
                       <strong>Software Engineer</strong> — AIZTS Infotech Pvt. Ltd
-                      (Jul 2024 – Present)
-                    </li>
-                    <li>
-                      <strong>Process Executive</strong> — NVIDIA (Feb 2023 – Sep 2023)
+                      (Dec 2024 – Present)
                     </li>
                   </ul>
                 </div>
